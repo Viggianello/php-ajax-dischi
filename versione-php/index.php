@@ -1,21 +1,18 @@
-<?php include('../database/dischi.php');
-// var_dump($dischi);
-?>
-<?php var_dump($dischi['poster']); ?>
+<?php include('../database/dischi.php');?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Dischi php</title>
     </head>
     <body>
         <?php foreach ($dischi as $disco) { ?>
         <div class="cd">
-                    <img src="<?php echo $dischi['poster']; ?>" alt="">
-                    <h3><?php  ?></h3>
-                    <span class="author"><?php  ?></span>
-                    <span class="year"><?php  ?></span>
-                    <span class="genre"><?php  ?></span>
+                    <img src="<?php echo $disco['poster']; ?>" alt="">
+                    <h3><?php echo $disco['title']; ?></h3>
+                    <span class="author"><?php echo $disco['author']; ?></span>
+                    <span class="year"><?php echo $disco['year']; ?></span>
+                    <span class="genre"><?php echo $disco['genre']; ?></span>
         </div>
     <?php } ?>
     </body>
