@@ -1,5 +1,5 @@
-<?php include 'dischi.php' ?>
+<?php include 'dischi.php'; ?>
 <?php
 header('Content-Type: application/json');
-echo json_encode($database);
+echo json_encode($dischi);
 ?>

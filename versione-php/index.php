@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Dischi php</title>
+        <title>Dischi versione php</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
