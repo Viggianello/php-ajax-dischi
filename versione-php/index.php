@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>Dischi versione php</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../public/css/app.css">
     </head>
     <body>
         <div class="cds-container container">

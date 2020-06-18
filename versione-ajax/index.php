@@ -5,7 +5,7 @@
         <title></title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../public/css/app.css">
     </head>
     <body>
         <div class="cds-container container">
@@ -24,6 +24,6 @@
 
         </script>
 
-    <script src="main.js" charset="utf-8"></script>
+    <script src="../public/js/app.js" charset="utf-8"></script>
     </body>
 </html>
